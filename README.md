@@ -4,7 +4,7 @@
 
 # Zen Mode
 
-Zen-Mode Extension for **Brave** or if you are still using...  **Chrome**
+Zen-Mode Extension for **Brave** or **Chrome**
 
 ### What it does?
 
@@ -17,6 +17,8 @@ Zen mode extension removes distractions from all the popular websites. May it be
 - **YouTube** (Removes the entire news feed, hides subscribed channels, hides similar video suggestions and comment section)
 
 - **Pinterest** (Removes the entire news feed and makes the website useless)
+
+- **Messenger** - *Comming Soon*
 
 - **Twitter** - *Comming Soon*
 
