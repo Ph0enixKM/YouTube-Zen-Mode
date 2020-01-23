@@ -24,7 +24,7 @@ Zen mode extension removes distractions from all the popular websites. May it be
 
 ## Installation
 
-1. Download a [zip file](https://github.com/Ph0enixKM/browser-zen-mode)
+1. Download a [zip file](https://github.com/Ph0enixKM/browser-zen-mode/archive/master.zip)
 
 2. Type in: `brave://extensions` or `chrome://extensions` into the top search bar
 
@@ -36,16 +36,12 @@ Zen mode extension removes distractions from all the popular websites. May it be
 
 6. Select unpacked directory (folder) containing the extension
 
-![Extension Loaded](/home/phoenix/Desktop/Dev/browser-zen-mode/icons/extension.png)
+![Extension Loaded](https://raw.githubusercontent.com/Ph0enixKM/browser-zen-mode/master/icons/extension.png)
 
 ### Usage
 
 It should be working right away. Once you need to get back to *Chaos* mode select the *Zen* icon from the extensions menu (top right corner) and click on the *Unleash Chaos* button.
 
-
-
-![YouTube screen shot with Zen Mode](/home/phoenix/Desktop/Dev/browser-zen-mode/icons/yt-ss.jpg)
+![YouTube screen shot with Zen Mode](https://raw.githubusercontent.com/Ph0enixKM/browser-zen-mode/master/icons/yt-ss.jpg)
 
 *(Screen shot of the YouTube platform with Zen Mode)*
-
-
