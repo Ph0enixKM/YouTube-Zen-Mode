@@ -54,11 +54,11 @@ Zen mode extension removes distractions from all the popular websites. May it be
 
 5. Select `manifest.json` file which is located in the unpacked addon directory (folder)
 
-![FireFox Addon](/home/phoenix/Desktop/Dev/browser-zen-mode/icons/addon.png)
+![FireFox Addon](https://raw.githubusercontent.com/Ph0enixKM/browser-zen-mode/master/icons/addon.png)
 
 ## Usage
 
-It should be working right away. Once you need to get back to *Chaos* mode select the *Zen* icon from the extensions menu (top right corner) and click on the *Unleash Chaos* button.
+It should be working right away. Once you need to get back to *Chaos* mode select the *Zen* icon from the extensions me
 
 ![YouTube screen shot with Zen Mode](https://raw.githubusercontent.com/Ph0enixKM/browser-zen-mode/master/icons/yt-ss.jpg)
 
