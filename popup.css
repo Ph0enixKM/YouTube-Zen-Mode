@@ -1,0 +1,38 @@
+body {
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(darkorange, red);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+body.chaos {
+    background: linear-gradient(rgba(100,1,128,1) 0%, rgba(0,8,46,1) 100%)
+}
+
+button {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border: none;
+    background-color: #222;
+    border-radius: 10px;
+    color: #aaa;
+    padding: 20px;
+    display: inline-block;
+    width: 150px;
+    transition: background-color 200ms;
+    outline: none;
+    user-select: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+
+button:active {
+    background-color: #111;
+}
