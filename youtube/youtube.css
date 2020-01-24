@@ -6,10 +6,6 @@ ytd-rich-grid-renderer.style-scope.ytd-two-column-browse-results-renderer {
     visibility: hidden;
 }
 
-ytd-notification-topbar-button-renderer {
-    display: none !important;
-}
-
 
 .zen-mode-container {
     color: #888;

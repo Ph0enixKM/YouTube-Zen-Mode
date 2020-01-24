@@ -40,19 +40,15 @@ Zen mode extension removes distractions from all the popular websites. May it be
 
 6. Select unpacked directory (folder) containing the extension
 
-
-
 ![Extension Loaded](https://raw.githubusercontent.com/Ph0enixKM/browser-zen-mode/master/icons/extension.png)
 
 #### FireFox
 
 1. Install it from the followin web site [link](https://addons.mozilla.org/en-US/firefox/addon/zen-mode/)
 
+![FireFox Addon](https://raw.githubusercontent.com/Ph0enixKM/browser-zen-mode/master/icons/ffxaddon.png)
 
 
-![FireFox Addon](https://raw.githubusercontent.com/Ph0enixKM/browser-zen-mode/master/icons/addon.png)
-
-## Usage
 
 It should be working right away. Once you need to get back to *Chaos* mode select the *Zen* icon from the extensions me
 
