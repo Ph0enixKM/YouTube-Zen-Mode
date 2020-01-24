@@ -3,7 +3,14 @@ ytd-rich-grid-renderer.style-scope.ytd-two-column-browse-results-renderer {
 }
 
 #secondary {
-    visibility: hidden;
+    opacity: 0.3;
+    filter: saturate(0.3);
+    transition: filter 300ms, opacity 300ms;
+}
+
+#secondary:hover {
+    opacity: 1;
+    filter: saturate(1);
 }
 
 

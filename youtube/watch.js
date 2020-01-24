@@ -9,8 +9,8 @@ chrome.storage.local.get(['chaos'], (res) => {
 
 function init() {
     setTimeout(() => {
-        let leftPanel = document.querySelector('#secondary')
-        leftPanel.style.visibility = 'hidden'
+        let rightPanel = document.querySelector('#secondary')
+        rightPanel.style.opacity = '0.3'
     }, 500)
 
     let count = 0
@@ -32,6 +32,12 @@ function disable() {
         
         #secondary {
             visibility: visible !important;
+            opacity: 1 !important;
+        }
+
+        #secondary {
+            opacity: 1 !important;
+            filter: saturate(1) !important;
         }
     `
     document.head.appendChild(style)
