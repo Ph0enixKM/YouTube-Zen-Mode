@@ -24,8 +24,10 @@ function init() {
             text-align: left;
             margin: 5px;
             font-size: 25px;
-        "> 
+            color: white;
+        ">
             Keep your mind peaceful 
+            <img src="icons/icon.png">
         </h1>`
         bluebar.style.visibility = 'visible'
         count++
