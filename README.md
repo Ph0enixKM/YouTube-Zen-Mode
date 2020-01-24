@@ -14,7 +14,7 @@ Zen mode extension removes distractions from all the popular websites. May it be
 
 - **Facebook** (Removes the entire news feed, hides notifications and leaves you with only chat to use)
 
-- **YouTube** (Removes the entire news feed, hides subscribed channels, hides similar video suggestions and comment section)
+- **YouTube** (Removes the entire news feed, hides subscribed channels, hides similar video suggestions and notifications)
 
 - **Pinterest** (Removes the entire news feed and makes the website useless)
 

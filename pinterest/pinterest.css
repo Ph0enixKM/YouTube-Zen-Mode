@@ -1,3 +1,26 @@
 .mainContainer {
     visibility: hidden;
 }
+
+.zen-mode-container {
+    color: #888;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-size: 5vw;
+    text-align: center;
+}
+
+.zen-mode-title {
+    vertical-align: middle;
+}
+
+.zen-mode-svg {
+    vertical-align: middle;
+    width: 10vw;
+    height: 10vw;
+    margin: 0 10px;
+    margin-bottom: 30px;
+    filter: invert(0.5);
+}

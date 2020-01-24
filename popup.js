@@ -33,16 +33,30 @@ button.addEventListener('click', e => {
         
         chrome.storage.local.set({chaos: value}, () => {
 
+            
             // Reload all the tabs
-            chrome.windows.getAll({}, function(windows) {
+            chrome.windows.getAll({}, async function(windows) {
                 for (let i in windows) {
-                    // this.reloadWindow(windows[i])
-                    chrome.tabs.getAllInWindow(windows[i].id, function reloadTabs(tabs) {
-                        for (let i in tabs) {
-                            let tab = tabs[i]
-                            chrome.tabs.update(tab.id, {url: tab.url, selected: tab.selected}, null)
-                        }
-                    })
+                    let tabs
+
+                    // FireFox
+                    try {
+                        tabs = await browser.tabs.query({currentWindow: true})
+                    }
+
+                    // Brave / Chrome
+                    catch {
+                        tabs = await (() => {
+                            return new Promise(res => {
+                                chrome.tabs.query({currentWindow: true}, (val) => res(val))
+                            })
+                        })()
+                    }
+
+                    for (let i in tabs) {
+                        let tab = tabs[i]
+                        chrome.tabs.update(tab.id, {url: tab.url})
+                    }
                 }
             })
             update()

@@ -3,6 +3,40 @@
     height: 100vh;
 }
 
-#bluebarRoot ._2t-a._4pmj._2t-d {
+#pagelet_bluebar {
     visibility: hidden;
 }
+
+#pagelet_navigation {
+    visibility: hidden;
+}
+
+.zen-mode-container {
+    position: absolute; 
+    transform: translate(-50%, -50%);
+    top: 50%; 
+    left: 50%; 
+    text-align: left;
+    margin: 5px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    width: inherit;
+}
+
+.zen-mode-title {
+    color: #888;
+    font-size: 5vw;
+}
+
+.zen-mode-svg {
+    vertical-align: middle;
+    width: 10vw;
+    height: 10vw;
+    margin: 0 10px;
+    margin-bottom: 30px;
+    filter: invert(0.5);
+    border-radius: 50%;
+}
+
