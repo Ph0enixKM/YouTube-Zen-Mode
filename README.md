@@ -58,11 +58,11 @@ It should be working right away. Once you need to get back to *Chaos* mode selec
 
 ## Issues
 
-#### Windows Developer Mode extensions warning (Chrome)
+#### Windows Developer Mode Extensions Warning (Chrome)
 
 ![DevModeExtWarning](https://raw.githubusercontent.com/Ph0enixKM/browser-zen-mode/master/icons/warning.jpg)
 
-1. Download Chrome Warning patcher from the [link](https://github.com/Ceiridge/Chrome-Developer-Mode-Extension-Warning-Patcher/releases/download/2.0/ChromeDevExtWarningPatcher.exe)
+1. Download Chrome warning patcher from the [link](https://github.com/Ceiridge/Chrome-Developer-Mode-Extension-Warning-Patcher/releases/download/2.0/ChromeDevExtWarningPatcher.exe)
 
 2. Run the patcher using the following command `./ChromeDevExtWarningPatcher.exe -noWarningPatch`
 
