@@ -49,9 +49,21 @@ Zen mode extension removes distractions from all the popular websites. May it be
 ![FireFox Addon](https://raw.githubusercontent.com/Ph0enixKM/browser-zen-mode/master/icons/ffxaddon.png)
 
 
-
+## Usage
 It should be working right away. Once you need to get back to *Chaos* mode select the *Zen* icon from the extensions me
 
 ![YouTube screen shot with Zen Mode](https://raw.githubusercontent.com/Ph0enixKM/browser-zen-mode/master/icons/yt-ss.jpg)
 
 *(Screen shot of the YouTube platform with Zen Mode)*
+
+## Issues
+
+#### Windows Developer Mode extensions warning (Chrome)
+
+![DevModeExtWarning](https://raw.githubusercontent.com/Ph0enixKM/browser-zen-mode/master/icons/warning.jpg)
+
+1. Download Chrome Warning patcher from the ![link](https://github.com/Ceiridge/Chrome-Developer-Mode-Extension-Warning-Patcher/releases/download/2.0/ChromeDevExtWarningPatcher.exe)
+
+2. Run the patcher using the following command `./ChromeDevExtWarningPatcher.exe -noWarningPatch`
+
+3. Restart Chrome
