@@ -4,7 +4,7 @@
 
 # Zen Mode
 
-Zen-Mode Extension for **Brave** , **Chrome** and **FireFox**
+Zen-Mode Extension for **Chromium** and **FireFox**
 
 ### What it does?
 
@@ -24,46 +24,4 @@ Zen mode extension removes distractions from all the popular websites. May it be
 
 - **Instagram** - *Comming Soon*
 
-## Installation
-
-#### Brave / Chrome
-
-1. Download a [zip file](https://github.com/Ph0enixKM/browser-zen-mode/archive/master.zip)
-
-2. Type in: `brave://extensions` or `chrome://extensions` into the top search bar
-
-3. In the top right corner turn on the *"Developer mode"* switch
-
-4. Upack the zip file wherever you want
-
-5. Click the *"Load unpacked"* button which is located in the top left corner
-
-6. Select unpacked directory (folder) containing the extension
-
-![Extension Loaded](https://raw.githubusercontent.com/Ph0enixKM/browser-zen-mode/master/icons/extension.png)
-
-#### FireFox
-
-1. Install it from the followin web site [link](https://addons.mozilla.org/en-US/firefox/addon/zen-mode/)
-
-![FireFox Addon](https://raw.githubusercontent.com/Ph0enixKM/browser-zen-mode/master/icons/ffxaddon.png)
-
-
-## Usage
-It should be working right away. Once you need to get back to *Chaos* mode select the *Zen* icon from the extensions me
-
-![YouTube screen shot with Zen Mode](https://raw.githubusercontent.com/Ph0enixKM/browser-zen-mode/master/icons/yt-ss.jpg)
-
-*(Screen shot of the YouTube platform with Zen Mode)*
-
-## Issues
-
-#### Windows Developer Mode Extensions Warning (Chrome)
-
-![DevModeExtWarning](https://raw.githubusercontent.com/Ph0enixKM/browser-zen-mode/master/icons/warning.jpg)
-
-1. Download Chrome warning patcher from the [link](https://github.com/Ceiridge/Chrome-Developer-Mode-Extension-Warning-Patcher/releases/download/2.0/ChromeDevExtWarningPatcher.exe)
-
-2. Run the patcher using the following command `./ChromeDevExtWarningPatcher.exe -noWarningPatch`
-
-3. Restart Chrome
+# 
