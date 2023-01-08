@@ -3,16 +3,24 @@
 </div>
 
 # Zen Mode
+![Firefox](https://img.shields.io/amo/v/zen-mode?color=orange&label=Firefox&logo=firefox-browser&logoColor=white&style=for-the-badge)
+![Chrome](https://img.shields.io/chrome-web-store/v/dgdfifjibepijpnledojfgcaggckaclb?color=red&label=Chrome&logo=google-chrome&logoColor=white&style=for-the-badge)
+![Users](https://img.shields.io/chrome-web-store/users/dgdfifjibepijpnledojfgcaggckaclb?style=for-the-badge)
 
-Zen-Mode Extension for **Chromium** and **FireFox**
+Zen-Mode Extension for **FireFox** and **Chromium**
+
+<div>
+    <a href="https://addons.mozilla.org/en-US/firefox/addon/zen-mode/">
+        <img src="icons/firefox.png" height="50" style="border-radius: 10px; margin: 20px">
+    </a>
+    <a href="https://chrome.google.com/webstore/detail/zen-mode/dgdfifjibepijpnledojfgcaggckaclb">
+        <img src="icons/chrome.png" height="50" style="border-radius: 10px; margin: 20px">
+    </a>
+</div>
 
 ### What it does?
 
 Zen mode extension removes distractions from all the popular websites. May it be a content such as news feed, notifications or suggestions of similar videos to the one you are currently watching on youtube.
 
-> WARNING: Facebook support is dropped due to the fact that in order to chat with people without distractions you can just use the Messenger app.
-
-### What kind of websites does it clean and in what way?
-
-- **YouTube** (Removes the entire news feed, hides similar video suggestions and notifications)
+> **WARNING** Facebook support is dropped due to the fact that in order to chat with people without distractions you can just use the Messenger app.
 
