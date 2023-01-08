@@ -19,57 +19,69 @@ class Zen {
     }
 
     setZenMode() {
+        const isHomepage = location.href.match(/youtube\.com\/?$/)
         if (document.querySelector('.zen-mode-style-chaos')) {
             document.querySelector('.zen-mode-style-chaos').remove()
         }
-        this.container.style.visibility = 'visible'
-        this.setCustomStyle()
+        if (document.querySelector('.zen-mode-container')) {
+            document.querySelector('.zen-mode-container').style.visibility = isHomepage ? 'visible' : 'hidden'
+        }
+        this.setCustomStyle(isHomepage)
     }
 
-    setCustomStyle() {
-        if (document.querySelector('.zen-mode-custom-style')) return
+    setCustomStyle(isHomepage) {
+        if (document.querySelector('.zen-mode-style-zen')) return
         chrome.storage.sync.get(['css'], (res) => {
-            this.customStyle = document.createElement('style')
-            this.customStyle.className = 'zen-mode-custom-style'
-            this.customStyle.innerHTML = res.css
-            document.head.appendChild(this.customStyle)
+            this.zenStyle = document.createElement('style')
+            this.zenStyle.className = 'zen-mode-style-zen'
+            if (isHomepage) {
+                this.zenStyle.innerHTML += `
+                    *:not([page-subtype="channels"]) > #primary {
+                        display: none;
+                    }
+                `;
+            }
+            this.zenStyle.innerHTML += `
+                #secondary {
+                    opacity: 0.3;
+                    filter: saturate(0.3);
+                    transition: filter 300ms, opacity 300ms;
+                }
+                
+                #secondary:hover {
+                    opacity: 1;
+                    filter: saturate(1);
+                }
+
+                ytd-rich-grid-renderer.style-scope.ytd-two-column-browse-results-renderer {
+                    visibility: hidden;
+                }
+                
+                .ytd-comments {
+                    display: none;
+                }
+            `;
+            this.zenStyle.innerHTML += res.css
+            document.head.appendChild(this.zenStyle)
         })
     }
 
     setChaosMode() {
-        if (!document.querySelector('.zen-mode-style-chaos')) {
-            this.chaosStyle = document.createElement('style')
-            this.chaosStyle.className = 'zen-mode-style-chaos'
-            this.chaosStyle.innerHTML = `
-                ytd-rich-grid-renderer.style-scope.ytd-two-column-browse-results-renderer {
-                    visibility: visible !important;
-                }
-                
-                #secondary {
-                    visibility: visible !important;
-                }
-
-                #primary {
-                    display: block !important;
-                }
-            `
-            document.head.appendChild(this.chaosStyle)
+        if (document.querySelector('.zen-mode-style-zen')) {
+            document.querySelector('.zen-mode-style-zen').remove()
         }
-        if (document.querySelector('.zen-mode-custom-style')) {
-            document.querySelector('.zen-mode-custom-style').remove()
+        if (document.querySelector('.zen-mode-container')) {
+            document.querySelector('.zen-mode-container').style.visibility = 'hidden'
         }
-        this.container.style.visibility = 'hidden'
     }
 }
 
 const zen = new Zen()
 const main = () => {
     chrome.storage.local.get(['chaos'], (res) => {
-        if (location.href.match(/youtube\.com\/?$/) && !res.chaos) {
-            zen.setZenMode()
-            return
-        }
-        zen.setChaosMode()
+        res.chaos
+            ? zen.setChaosMode()
+            : zen.setZenMode()
     })
 }
 main()
