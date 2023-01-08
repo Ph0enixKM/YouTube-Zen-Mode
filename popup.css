@@ -1,38 +1,190 @@
 body {
-    width: 200px;
-    height: 100px;
-    background: linear-gradient(darkorange, red);
     text-align: center;
     margin: 0;
     padding: 0;
+    transition: background-position 1s;
+    background-image: linear-gradient(#fff 0%, #aaa 25%, rgba(100,1,128,1) 75%, rgba(0,8,46,1) 100%);
+    background-size: 100% 400%;
+    background-position: 0 0;
 }
 
 body.chaos {
-    background: linear-gradient(rgba(100,1,128,1) 0%, rgba(0,8,46,1) 100%)
+    background-position: 0 100%
+}
+
+@keyframes rotateChaos {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes rotateZen {
+    0% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+    animation: rotateZen 1000ms;
+}
+
+.chaos .logo {
+    transform: rotate(180deg);
+    animation: rotateChaos 1000ms;
+}
+
+path {
+    transition: 100ms;
+    fill: #aaa;
+}
+
+@keyframes chaos {
+    0% {
+        fill: #aaa;
+    }
+    100% {
+        fill: #fff;
+    }
+}
+
+section.settings {
+    position: absolute;
+    background: linear-gradient(#fff, #aaa);
+    border-radius: 20px;
+    box-shadow: #aaa 0 0 10px;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    transition: top 300ms;
+}
+
+.chaos section.settings {
+    background: linear-gradient(rgba(100,1,128,1), rgba(0,8,46,1));
+}
+
+section.settings.visible {
+    top: 0;
+    border-radius: 0px;
+}
+
+.chaos path {  
+    fill: rgb(32, 4, 40);
 }
 
 button {
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    border: none;
+    border: 1px solid #333;
     background-color: #222;
     border-radius: 10px;
     color: #aaa;
-    padding: 20px;
-    display: inline-block;
+    padding: 10px;
     width: 150px;
     transition: background-color 200ms;
     outline: none;
     user-select: none;
+    margin: 10px;
 }
 
 button:hover {
     cursor: pointer;
-    background-color: #333;
+    background-color: #2a2a2a;
 }
 
 button:active {
     background-color: #111;
+}
+
+.css-editor {
+    display: inline-block;
+    position: relative;
+    border: 1px solid #333;
+    background-color: #222;
+    border-radius: 10px;
+    color: #aaa;
+    width: 300px;
+    height: 300px;
+    outline: none;
+    margin: 10px;
+    overflow: scroll;
+}
+
+.css-editor div {
+    text-align: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 10px;
+    padding: 10px;
+    font-family: monospace;
+    width: 300px;
+    height: 300px;
+    overflow: scroll;
+}
+
+.css-editor textarea {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+    background-color: transparent;
+    font-size: 10px;
+    resize: none;
+    padding: 10px;
+    color: transparent;
+    font-family: monospace;
+    caret-color: #aaa;
+    width: 300px;
+    height: 300px;
+    overflow: scroll;
+    outline: none !important;
+}
+
+.editor.class {
+    color: #D19A66;
+}
+
+.editor.id {
+    color: #61AEEE;
+}
+
+.editor.tag {
+    color: #E06C75;
+}
+
+.editor.comment {
+    color: #777;
+}
+
+.editor.string {
+    color: #98C379;
+}
+
+.editor.function {
+    color: #55B6C2;
+}
+
+.editor.rule {
+    color: #C578DD;
+}
+
+.editor.value {
+    color: #D19A66;
+}
+
+.editor.unit {
+    color: #E06C75;
+}
+
+textarea, pre {
+    tab-size : 4;
 }
