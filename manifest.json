@@ -1,7 +1,7 @@
 {
-  "name": "Zen Mode",
-  "version": "1.3.1",
-  "description": "Get rid of all the distractions",
+  "name": "YouTube Zen Mode",
+  "version": "2.0.0",
+  "description": "Get rid of all the distractions on YouTube",
   "manifest_version": 2,
   "icons": {
     "16": "icons/icon16.png",
@@ -9,7 +9,7 @@
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-  "permissions": ["storage", "tabs"],
+  "permissions": ["storage", "tabs", "webNavigation", "webRequest", "*://*.youtube.com/*"],
   "browser_action": {
     "default_popup": "popup.html",
     "default_title": "Zen",
@@ -21,17 +21,12 @@
     }
   },
   "background": {
-    "scripts": ["background.js"]
+    "scripts": ["background.js"],
+    "persistent": true
   },
   "content_scripts": [
     {
-      "matches" : ["https://www.youtube.com/watch*"],
-      "js" : ["youtube/watch.js"],
-      "css" : ["youtube/youtube.css"],
-      "run_at": "document_end"
-    },
-    {
-      "matches" : ["https://www.youtube.com/"],
+      "matches" : ["https://www.youtube.com/*"],
       "js" : ["youtube/main.js"],
       "css" : ["youtube/youtube.css"],
       "run_at": "document_end"
@@ -41,12 +36,6 @@
       "js" : ["facebook/feed.js"],
       "css" : ["facebook/facebook.css"],
       "run_at": "document_end"
-    },
-    {
-      "matches" : ["https://*.pinterest.com/*"],
-      "js" : ["pinterest/pinterest.js"],
-      "css" : ["pinterest/pinterest.css"],
-      "run_at" : "document_end"
     }
   ]
 }

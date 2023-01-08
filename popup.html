@@ -5,8 +5,26 @@
     <meta content="utf-8" http-equiv="encoding">
     <link rel="stylesheet" href="popup.css">
   </head>
-  <body class="">
-    <button id="hour">Unleash Chaos <br>(1 hour)</button>
-    <script src="popup.js"></script>
+  <body>
+    <section class="main">
+      <div class="logo">
+        <svg width="100%" height="100%" viewBox="0 0 466 466" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+          <path d="M137.275,287.536c14.269,-14.269 37.439,-14.269 51.708,0c14.269,14.269 14.269,37.438 0,51.707c-14.269,14.269 -37.439,14.269 -51.708,0c-14.269,-14.269 -14.269,-37.438 0,-51.707Zm-69.031,-219.292c90.931,-90.931 238.581,-90.931 329.512,0c90.931,90.931 90.931,238.581 0,329.512c-90.931,90.931 -238.581,90.931 -329.512,0c-90.931,-90.931 -90.931,-238.581 0,-329.512Zm18.332,318.145c-82.596,-82.596 -82.596,-216.51 0,-299.106c82.596,-82.596 216.51,-82.596 299.106,0c41.298,41.298 41.298,108.255 0,149.553c-41.298,41.298 -108.255,41.298 -149.553,0c-41.298,-41.298 -108.255,-41.298 -149.553,0c-41.298,41.298 -41.298,108.255 0,149.553Z"/>
+          <path d="M286.829,137.983c14.268,-14.269 37.438,-14.269 51.707,0c14.269,14.269 14.269,37.438 0,51.707c-14.269,14.269 -37.439,14.269 -51.707,0c-14.269,-14.269 -14.269,-37.438 0,-51.707Z" style="fill-rule:nonzero;"/>
+        </svg>
+      </div>
+      <button id="hour">Unleash Chaos <br>(1 hour)</button>
+      <button id="settings">Settings</button>
+    </section>
+    <section class="settings">
+      <button id="back">Back</button>
+      <div class="css-editor">
+        <div>Enter advanced CSS</div>
+        <textarea spellcheck="false"></textarea>
+      </div>
+    </section>
   </body>
+  <script src="popup.js"></script>
+  <script src="editor.js"></script>
+  <script src="settings.js"></script>
 </html>

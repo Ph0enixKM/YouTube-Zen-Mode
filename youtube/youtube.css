@@ -13,6 +13,18 @@ ytd-rich-grid-renderer.style-scope.ytd-two-column-browse-results-renderer {
     filter: saturate(1);
 }
 
+.ytd-comments {
+    display: none;
+}
+
+@keyframes zenmode-spin {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
 
 .zen-mode-container {
     color: #888;
@@ -24,6 +36,11 @@ ytd-rich-grid-renderer.style-scope.ytd-two-column-browse-results-renderer {
     text-align: center;
 }
 
+.zen-mode-logo {
+    animation: zenmode-spin 40s linear infinite;
+    display: inline-block;
+}
+
 .zen-mode-title {
     vertical-align: middle;
 }
@@ -32,7 +49,9 @@ ytd-rich-grid-renderer.style-scope.ytd-two-column-browse-results-renderer {
     vertical-align: middle;
     width: 10vw;
     height: 10vw;
-    margin: 0 10px;
-    margin-bottom: 30px;
     filter: invert(0.5);
+}
+
+*:not([page-subtype="channels"]) > #primary {
+    display: none;
 }

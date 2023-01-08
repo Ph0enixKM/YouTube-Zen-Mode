@@ -10,18 +10,9 @@ Zen-Mode Extension for **Chromium** and **FireFox**
 
 Zen mode extension removes distractions from all the popular websites. May it be a content such as news feed, notifications or suggestions of similar videos to the one you are currently watching on youtube.
 
+> WARNING: Facebook support is dropped due to the fact that in order to chat with people without distractions you can just use the Messenger app.
+
 ### What kind of websites does it clean and in what way?
 
-- **Facebook** (Removes the entire news feed, hides notifications and leaves you with only chat to use)
+- **YouTube** (Removes the entire news feed, hides similar video suggestions and notifications)
 
-- **YouTube** (Removes the entire news feed, hides subscribed channels, hides similar video suggestions and notifications)
-
-- **Pinterest** (Removes the entire news feed and makes the website useless)
-
-- **Messenger** - *Comming Soon*
-
-- **Twitter** - *Comming Soon*
-
-- **Instagram** - *Comming Soon*
-
-# 
