@@ -65,10 +65,6 @@ class Zen {
                     opacity: 1;
                     filter: saturate(1);
                 }
-
-                ytd-rich-grid-renderer.style-scope.ytd-two-column-browse-results-renderer {
-                    visibility: hidden;
-                }
                 
                 .ytd-comments {
                     display: none;
@@ -98,6 +94,12 @@ const main = () => {
         res.chaos
             ? zen.setChaosMode()
             : zen.setZenMode()
+
+        document.querySelectorAll('a#endpoint').forEach(a => {
+            a.addEventListener('click', () => {
+                main()
+            })
+        })
     })
 }
 main()
@@ -107,3 +109,4 @@ chrome.runtime.onMessage.addListener(function(request) {
         main()
     }
 });
+

@@ -22,6 +22,8 @@ chrome.webRequest.onCompleted.addListener(function(details) {
         parsedUrl.pathname.includes('/youtubei/v1') ||
         currentUrl.indexOf(parsedUrl.pathname) > -1
     )
+    console.log(parsedUrl.pathname);
+    console.log(predicate);
     if (currentUrl && predicate && tabId) {
         chrome.tabs.sendMessage(tabId, { type: 'page-rendered'});
     }
