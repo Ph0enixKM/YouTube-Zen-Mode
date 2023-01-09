@@ -7,7 +7,7 @@
 ![Chrome](https://img.shields.io/chrome-web-store/v/dgdfifjibepijpnledojfgcaggckaclb?color=red&label=Chrome&logo=google-chrome&logoColor=white&style=for-the-badge)
 ![Users](https://img.shields.io/chrome-web-store/users/dgdfifjibepijpnledojfgcaggckaclb?style=for-the-badge)
 
-Zen-Mode Extension for **FireFox** and **Chromium**
+Zen-Mode Extension for **FireFox** and **Chromium** (Chrome, Brave, Opera, Edge)
 
 <div>
     <a href="https://addons.mozilla.org/en-US/firefox/addon/zen-mode/">
