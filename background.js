@@ -1,7 +1,7 @@
 chrome.runtime.onStartup.addListener(function() {
     chrome.storage.local.get(['chaos'], (res) => {
         if (res.chaos) {
-            chrome.browserAction.setIcon({
+            chrome.action.setIcon({
                 path : "icons/chaos-icon128.png"
             })
         }
@@ -19,7 +19,7 @@ chrome.webNavigation.onHistoryStateUpdated.addListener(details => {
 chrome.webRequest.onCompleted.addListener(function(details) {
     const parsedUrl = new URL(details.url);
     const predicate = (
-        parsedUrl.pathname === '/youtubei/v1/browse' ||
+        parsedUrl.pathname.includes('/youtubei/v1') ||
         currentUrl.indexOf(parsedUrl.pathname) > -1
     )
     if (currentUrl && predicate && tabId) {

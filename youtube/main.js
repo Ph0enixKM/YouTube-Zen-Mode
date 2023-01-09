@@ -26,21 +26,34 @@ class Zen {
         if (document.querySelector('.zen-mode-container')) {
             document.querySelector('.zen-mode-container').style.visibility = isHomepage ? 'visible' : 'hidden'
         }
-        this.setCustomStyle(isHomepage)
+        this.setCustomStyle()
+        this.setHomepageStyle(isHomepage)
     }
 
-    setCustomStyle(isHomepage) {
+    setHomepageStyle(isHomepage) {
+        if (isHomepage) {
+            if (document.querySelector('.zen-mode-style-homepage-zen')) return
+            this.zenStyleHomepage = document.createElement('style')
+            this.zenStyleHomepage.className = 'zen-mode-style-homepage-zen'
+            this.zenStyleHomepage.innerHTML = `
+                #primary {
+                    display: none;
+                }
+            `
+            document.head.appendChild(this.zenStyleHomepage)
+        }
+        else {
+            if (document.querySelector('.zen-mode-style-homepage-zen')) {
+                document.querySelector('.zen-mode-style-homepage-zen').remove()
+            }
+        }
+    }
+
+    setCustomStyle() {
         if (document.querySelector('.zen-mode-style-zen')) return
         chrome.storage.sync.get(['css'], (res) => {
             this.zenStyle = document.createElement('style')
             this.zenStyle.className = 'zen-mode-style-zen'
-            if (isHomepage) {
-                this.zenStyle.innerHTML += `
-                    *:not([page-subtype="channels"]) > #primary {
-                        display: none;
-                    }
-                `;
-            }
             this.zenStyle.innerHTML += `
                 #secondary {
                     opacity: 0.3;
@@ -72,6 +85,9 @@ class Zen {
         }
         if (document.querySelector('.zen-mode-container')) {
             document.querySelector('.zen-mode-container').style.visibility = 'hidden'
+        }
+        if (document.querySelector('.zen-mode-style-homepage-zen')) {
+            document.querySelector('.zen-mode-style-homepage-zen').remove()
         }
     }
 }

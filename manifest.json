@@ -1,16 +1,17 @@
 {
   "name": "YouTube Zen Mode",
-  "version": "2.0.1",
+  "version": "2.1.1",
   "description": "Get rid of all the distractions on YouTube",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "icons": {
     "16": "icons/icon16.png",
     "32": "icons/icon32.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-  "permissions": ["storage", "tabs", "webNavigation", "webRequest", "*://*.youtube.com/*"],
-  "browser_action": {
+  "permissions": ["storage", "tabs", "webNavigation", "webRequest"],
+  "host_permissions": ["*://*.youtube.com/*"],
+  "action": {
     "default_popup": "popup.html",
     "default_title": "Zen",
     "default_icon": {
@@ -21,8 +22,12 @@
     }
   },
   "background": {
-    "scripts": ["background.js"],
-    "persistent": true
+    "scripts": ["background.js"]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{80b1557a-ec9a-4e6e-8877-8aa4f146c413}"
+    }
   },
   "content_scripts": [
     {

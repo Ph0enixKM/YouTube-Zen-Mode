@@ -7,14 +7,14 @@ function update() {
         if (res.chaos) {
             button.innerHTML = chaosText[0]
             document.body.className = 'chaos'
-            chrome.browserAction.setIcon({
+            chrome.action.setIcon({
                 path : "icons/chaos-icon128.png"
             })
         }
         else {
             button.innerHTML = chaosText[1]
             document.body.className = ''
-            chrome.browserAction.setIcon({
+            chrome.action.setIcon({
                 path : "icons/icon128.png"
             })
         }
