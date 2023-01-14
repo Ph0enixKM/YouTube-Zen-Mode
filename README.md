@@ -7,7 +7,7 @@
 ![Chrome](https://img.shields.io/chrome-web-store/v/dgdfifjibepijpnledojfgcaggckaclb?color=red&label=Chrome&logo=google-chrome&logoColor=white&style=for-the-badge)
 ![Users](https://img.shields.io/chrome-web-store/users/dgdfifjibepijpnledojfgcaggckaclb?style=for-the-badge)
 
-Zen-Mode Extension for **FireFox** and **Chromium** (Chrome, Brave, Opera, Edge)
+YouTube Zen-Mode Extension for **FireFox** and **Chromium** (Chrome, Brave, Opera, Edge)
 
 <div>
     <a href="https://addons.mozilla.org/en-US/firefox/addon/zen-mode/">
@@ -20,7 +20,6 @@ Zen-Mode Extension for **FireFox** and **Chromium** (Chrome, Brave, Opera, Edge)
 
 ### What it does?
 
-Zen mode extension removes distractions from all the popular websites. May it be a content such as news feed, notifications or suggestions of similar videos to the one you are currently watching on youtube.
+Zen mode extension removes distractions from YouTube. It hides the popular videos and the news feed in the home tab, comments under videos and makes binge watching harder by desaturating colors from the suggested videos on the right pane.
 
-> **Warning** Facebook support is dropped due to the fact that in order to chat with people without distractions you can just use the Messenger app.
-
+![screenshot](icons/yt-ss.jpg)
