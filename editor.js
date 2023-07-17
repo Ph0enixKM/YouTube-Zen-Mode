@@ -18,7 +18,7 @@ class Editor {
             })
         })
         this.input.addEventListener('scroll', () => this.updateScroll())
-        chrome.storage.sync.get('css', (res) => {
+        chrome.storage.local.get('css', (res) => {
             console.log(res);
             if (res.css) {
                 this.input.value = res.css
@@ -40,7 +40,7 @@ class Editor {
     }
 
     updateStorage() {
-        chrome.storage.sync.set({css: this.input.value}, () => {})
+        chrome.storage.local.set({css: this.input.value}, () => {})
     }
     
     update() {

@@ -30,5 +30,8 @@
     vertical-align: middle;
     width: 10vw;
     height: 10vw;
-    filter: invert(0.5);
+}
+
+.zen-mode-svg path {
+    fill: #888;
 }

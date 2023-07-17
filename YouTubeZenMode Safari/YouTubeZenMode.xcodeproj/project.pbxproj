@@ -1,0 +1,994 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B2098D52A6526BA009D5645 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D56F2A6480B100C7C7D3 /* manifest.json */; };
+		3B2098D62A6526BB009D5645 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D56F2A6480B100C7C7D3 /* manifest.json */; };
+		3B25D51B2A6480B000C7C7D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B25D51A2A6480B000C7C7D3 /* AppDelegate.swift */; };
+		3B25D51D2A6480B000C7C7D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B25D51C2A6480B000C7C7D3 /* SceneDelegate.swift */; };
+		3B25D5202A6480B000C7C7D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D51E2A6480B000C7C7D3 /* LaunchScreen.storyboard */; };
+		3B25D5232A6480B000C7C7D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D5212A6480B000C7C7D3 /* Main.storyboard */; };
+		3B25D52C2A6480B000C7C7D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B25D52B2A6480B000C7C7D3 /* AppDelegate.swift */; };
+		3B25D52F2A6480B000C7C7D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D52D2A6480B000C7C7D3 /* Main.storyboard */; };
+		3B25D5372A6480B000C7C7D3 /* YouTubeZenMode Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3B25D5362A6480B000C7C7D3 /* YouTubeZenMode Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3B25D5412A6480B000C7C7D3 /* YouTubeZenMode Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3B25D5402A6480B000C7C7D3 /* YouTubeZenMode Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3B25D5472A6480B000C7C7D3 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D50A2A6480AE00C7C7D3 /* Main.html */; };
+		3B25D5482A6480B000C7C7D3 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D50A2A6480AE00C7C7D3 /* Main.html */; };
+		3B25D5492A6480B000C7C7D3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D50C2A6480AE00C7C7D3 /* Icon.png */; };
+		3B25D54A2A6480B000C7C7D3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D50C2A6480AE00C7C7D3 /* Icon.png */; };
+		3B25D54B2A6480B000C7C7D3 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D50D2A6480AE00C7C7D3 /* Style.css */; };
+		3B25D54C2A6480B000C7C7D3 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D50D2A6480AE00C7C7D3 /* Style.css */; };
+		3B25D54D2A6480B000C7C7D3 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D50E2A6480AE00C7C7D3 /* Script.js */; };
+		3B25D54E2A6480B000C7C7D3 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D50E2A6480AE00C7C7D3 /* Script.js */; };
+		3B25D54F2A6480B000C7C7D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B25D50F2A6480AE00C7C7D3 /* ViewController.swift */; };
+		3B25D5502A6480B000C7C7D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B25D50F2A6480AE00C7C7D3 /* ViewController.swift */; };
+		3B25D5512A6480B000C7C7D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D5102A6480B000C7C7D3 /* Assets.xcassets */; };
+		3B25D5522A6480B000C7C7D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D5102A6480B000C7C7D3 /* Assets.xcassets */; };
+		3B25D5532A6480B000C7C7D3 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B25D5122A6480B000C7C7D3 /* SafariWebExtensionHandler.swift */; };
+		3B25D5542A6480B000C7C7D3 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B25D5122A6480B000C7C7D3 /* SafariWebExtensionHandler.swift */; };
+		3B25D5732A6480B100C7C7D3 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D5672A6480B100C7C7D3 /* popup.js */; };
+		3B25D5742A6480B100C7C7D3 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D5682A6480B100C7C7D3 /* background.js */; };
+		3B25D5752A6480B100C7C7D3 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D5692A6480B100C7C7D3 /* popup.html */; };
+		3B25D5762A6480B100C7C7D3 /* youtube in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D56A2A6480B100C7C7D3 /* youtube */; };
+		3B25D5782A6480B100C7C7D3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D56C2A6480B100C7C7D3 /* README.md */; };
+		3B25D5792A6480B100C7C7D3 /* editor.js in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D56D2A6480B100C7C7D3 /* editor.js */; };
+		3B25D57A2A6480B100C7C7D3 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D56E2A6480B100C7C7D3 /* icons */; };
+		3B25D57B2A6480B100C7C7D3 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D56F2A6480B100C7C7D3 /* manifest.json */; };
+		3B25D57C2A6480B100C7C7D3 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D5702A6480B100C7C7D3 /* popup.css */; };
+		3B25D57D2A6480B100C7C7D3 /* settings.js in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D5712A6480B100C7C7D3 /* settings.js */; };
+		3B25D57F2A6480B100C7C7D3 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D5672A6480B100C7C7D3 /* popup.js */; };
+		3B25D5802A6480B100C7C7D3 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D5682A6480B100C7C7D3 /* background.js */; };
+		3B25D5812A6480B100C7C7D3 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D5692A6480B100C7C7D3 /* popup.html */; };
+		3B25D5822A6480B100C7C7D3 /* youtube in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D56A2A6480B100C7C7D3 /* youtube */; };
+		3B25D5842A6480B100C7C7D3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D56C2A6480B100C7C7D3 /* README.md */; };
+		3B25D5852A6480B100C7C7D3 /* editor.js in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D56D2A6480B100C7C7D3 /* editor.js */; };
+		3B25D5862A6480B100C7C7D3 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D56E2A6480B100C7C7D3 /* icons */; };
+		3B25D5872A6480B100C7C7D3 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D56F2A6480B100C7C7D3 /* manifest.json */; };
+		3B25D5882A6480B100C7C7D3 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D5702A6480B100C7C7D3 /* popup.css */; };
+		3B25D5892A6480B100C7C7D3 /* settings.js in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D5712A6480B100C7C7D3 /* settings.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B25D5382A6480B000C7C7D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B25D5042A6480AE00C7C7D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B25D5352A6480B000C7C7D3;
+			remoteInfo = "YouTubeZenMode Extension (iOS)";
+		};
+		3B25D5422A6480B000C7C7D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B25D5042A6480AE00C7C7D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B25D53F2A6480B000C7C7D3;
+			remoteInfo = "YouTubeZenMode Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3B25D55A2A6480B000C7C7D3 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3B25D5372A6480B000C7C7D3 /* YouTubeZenMode Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B25D5612A6480B000C7C7D3 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3B25D5412A6480B000C7C7D3 /* YouTubeZenMode Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3B25D50B2A6480AE00C7C7D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		3B25D50C2A6480AE00C7C7D3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		3B25D50D2A6480AE00C7C7D3 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		3B25D50E2A6480AE00C7C7D3 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		3B25D50F2A6480AE00C7C7D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B25D5102A6480B000C7C7D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B25D5122A6480B000C7C7D3 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		3B25D5172A6480B000C7C7D3 /* YouTubeZenMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTubeZenMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B25D51A2A6480B000C7C7D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B25D51C2A6480B000C7C7D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3B25D51F2A6480B000C7C7D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B25D5222A6480B000C7C7D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B25D5242A6480B000C7C7D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B25D5292A6480B000C7C7D3 /* YouTubeZenMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTubeZenMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B25D52B2A6480B000C7C7D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B25D52E2A6480B000C7C7D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B25D5302A6480B000C7C7D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B25D5312A6480B000C7C7D3 /* YouTubeZenMode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YouTubeZenMode.entitlements; sourceTree = "<group>"; };
+		3B25D5362A6480B000C7C7D3 /* YouTubeZenMode Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "YouTubeZenMode Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B25D53B2A6480B000C7C7D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B25D5402A6480B000C7C7D3 /* YouTubeZenMode Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "YouTubeZenMode Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B25D5452A6480B000C7C7D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B25D5462A6480B000C7C7D3 /* YouTubeZenMode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YouTubeZenMode.entitlements; sourceTree = "<group>"; };
+		3B25D5672A6480B100C7C7D3 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = ../../popup.js; sourceTree = "<group>"; };
+		3B25D5682A6480B100C7C7D3 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../background.js; sourceTree = "<group>"; };
+		3B25D5692A6480B100C7C7D3 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = ../../popup.html; sourceTree = "<group>"; };
+		3B25D56A2A6480B100C7C7D3 /* youtube */ = {isa = PBXFileReference; lastKnownFileType = folder; name = youtube; path = ../../youtube; sourceTree = "<group>"; };
+		3B25D56C2A6480B100C7C7D3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		3B25D56D2A6480B100C7C7D3 /* editor.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = editor.js; path = ../../editor.js; sourceTree = "<group>"; };
+		3B25D56E2A6480B100C7C7D3 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = ../../icons; sourceTree = "<group>"; };
+		3B25D56F2A6480B100C7C7D3 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../manifest.json; sourceTree = "<group>"; };
+		3B25D5702A6480B100C7C7D3 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = popup.css; path = ../../popup.css; sourceTree = "<group>"; };
+		3B25D5712A6480B100C7C7D3 /* settings.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = settings.js; path = ../../settings.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B25D5142A6480B000C7C7D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B25D5262A6480B000C7C7D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B25D5332A6480B000C7C7D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B25D53D2A6480B000C7C7D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B25D5032A6480AE00C7C7D3 = {
+			isa = PBXGroup;
+			children = (
+				3B25D5082A6480AE00C7C7D3 /* Shared (App) */,
+				3B25D5112A6480B000C7C7D3 /* Shared (Extension) */,
+				3B25D5192A6480B000C7C7D3 /* iOS (App) */,
+				3B25D52A2A6480B000C7C7D3 /* macOS (App) */,
+				3B25D53A2A6480B000C7C7D3 /* iOS (Extension) */,
+				3B25D5442A6480B000C7C7D3 /* macOS (Extension) */,
+				3B25D5182A6480B000C7C7D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B25D5082A6480AE00C7C7D3 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				3B25D50F2A6480AE00C7C7D3 /* ViewController.swift */,
+				3B25D5102A6480B000C7C7D3 /* Assets.xcassets */,
+				3B25D5092A6480AE00C7C7D3 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		3B25D5092A6480AE00C7C7D3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3B25D50A2A6480AE00C7C7D3 /* Main.html */,
+				3B25D50C2A6480AE00C7C7D3 /* Icon.png */,
+				3B25D50D2A6480AE00C7C7D3 /* Style.css */,
+				3B25D50E2A6480AE00C7C7D3 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3B25D5112A6480B000C7C7D3 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				3B25D5652A6480B100C7C7D3 /* Resources */,
+				3B25D5122A6480B000C7C7D3 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		3B25D5182A6480B000C7C7D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B25D5172A6480B000C7C7D3 /* YouTubeZenMode.app */,
+				3B25D5292A6480B000C7C7D3 /* YouTubeZenMode.app */,
+				3B25D5362A6480B000C7C7D3 /* YouTubeZenMode Extension.appex */,
+				3B25D5402A6480B000C7C7D3 /* YouTubeZenMode Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B25D5192A6480B000C7C7D3 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				3B25D51A2A6480B000C7C7D3 /* AppDelegate.swift */,
+				3B25D51C2A6480B000C7C7D3 /* SceneDelegate.swift */,
+				3B25D51E2A6480B000C7C7D3 /* LaunchScreen.storyboard */,
+				3B25D5212A6480B000C7C7D3 /* Main.storyboard */,
+				3B25D5242A6480B000C7C7D3 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		3B25D52A2A6480B000C7C7D3 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				3B25D52B2A6480B000C7C7D3 /* AppDelegate.swift */,
+				3B25D52D2A6480B000C7C7D3 /* Main.storyboard */,
+				3B25D5302A6480B000C7C7D3 /* Info.plist */,
+				3B25D5312A6480B000C7C7D3 /* YouTubeZenMode.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		3B25D53A2A6480B000C7C7D3 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				3B25D53B2A6480B000C7C7D3 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		3B25D5442A6480B000C7C7D3 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				3B25D5452A6480B000C7C7D3 /* Info.plist */,
+				3B25D5462A6480B000C7C7D3 /* YouTubeZenMode.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		3B25D5652A6480B100C7C7D3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3B25D5692A6480B100C7C7D3 /* popup.html */,
+				3B25D5702A6480B100C7C7D3 /* popup.css */,
+				3B25D5672A6480B100C7C7D3 /* popup.js */,
+				3B25D5682A6480B100C7C7D3 /* background.js */,
+				3B25D56A2A6480B100C7C7D3 /* youtube */,
+				3B25D56C2A6480B100C7C7D3 /* README.md */,
+				3B25D56D2A6480B100C7C7D3 /* editor.js */,
+				3B25D56E2A6480B100C7C7D3 /* icons */,
+				3B25D56F2A6480B100C7C7D3 /* manifest.json */,
+				3B25D5712A6480B100C7C7D3 /* settings.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B25D5162A6480B000C7C7D3 /* YouTubeZenMode (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B25D55B2A6480B000C7C7D3 /* Build configuration list for PBXNativeTarget "YouTubeZenMode (iOS)" */;
+			buildPhases = (
+				3B25D5132A6480B000C7C7D3 /* Sources */,
+				3B25D5142A6480B000C7C7D3 /* Frameworks */,
+				3B25D5152A6480B000C7C7D3 /* Resources */,
+				3B25D55A2A6480B000C7C7D3 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B25D5392A6480B000C7C7D3 /* PBXTargetDependency */,
+			);
+			name = "YouTubeZenMode (iOS)";
+			productName = "YouTubeZenMode (iOS)";
+			productReference = 3B25D5172A6480B000C7C7D3 /* YouTubeZenMode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B25D5282A6480B000C7C7D3 /* YouTubeZenMode (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B25D5622A6480B000C7C7D3 /* Build configuration list for PBXNativeTarget "YouTubeZenMode (macOS)" */;
+			buildPhases = (
+				3B25D5252A6480B000C7C7D3 /* Sources */,
+				3B25D5262A6480B000C7C7D3 /* Frameworks */,
+				3B25D5272A6480B000C7C7D3 /* Resources */,
+				3B25D5612A6480B000C7C7D3 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B25D5432A6480B000C7C7D3 /* PBXTargetDependency */,
+			);
+			name = "YouTubeZenMode (macOS)";
+			productName = "YouTubeZenMode (macOS)";
+			productReference = 3B25D5292A6480B000C7C7D3 /* YouTubeZenMode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B25D5352A6480B000C7C7D3 /* YouTubeZenMode Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B25D5572A6480B000C7C7D3 /* Build configuration list for PBXNativeTarget "YouTubeZenMode Extension (iOS)" */;
+			buildPhases = (
+				3B25D5322A6480B000C7C7D3 /* Sources */,
+				3B25D5332A6480B000C7C7D3 /* Frameworks */,
+				3B25D5342A6480B000C7C7D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YouTubeZenMode Extension (iOS)";
+			productName = "YouTubeZenMode Extension (iOS)";
+			productReference = 3B25D5362A6480B000C7C7D3 /* YouTubeZenMode Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		3B25D53F2A6480B000C7C7D3 /* YouTubeZenMode Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B25D55E2A6480B000C7C7D3 /* Build configuration list for PBXNativeTarget "YouTubeZenMode Extension (macOS)" */;
+			buildPhases = (
+				3B25D53C2A6480B000C7C7D3 /* Sources */,
+				3B25D53D2A6480B000C7C7D3 /* Frameworks */,
+				3B25D53E2A6480B000C7C7D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YouTubeZenMode Extension (macOS)";
+			productName = "YouTubeZenMode Extension (macOS)";
+			productReference = 3B25D5402A6480B000C7C7D3 /* YouTubeZenMode Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B25D5042A6480AE00C7C7D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3B25D5162A6480B000C7C7D3 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					3B25D5282A6480B000C7C7D3 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					3B25D5352A6480B000C7C7D3 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					3B25D53F2A6480B000C7C7D3 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 3B25D5072A6480AE00C7C7D3 /* Build configuration list for PBXProject "YouTubeZenMode" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B25D5032A6480AE00C7C7D3;
+			productRefGroup = 3B25D5182A6480B000C7C7D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B25D5162A6480B000C7C7D3 /* YouTubeZenMode (iOS) */,
+				3B25D5282A6480B000C7C7D3 /* YouTubeZenMode (macOS) */,
+				3B25D5352A6480B000C7C7D3 /* YouTubeZenMode Extension (iOS) */,
+				3B25D53F2A6480B000C7C7D3 /* YouTubeZenMode Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B25D5152A6480B000C7C7D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B25D5492A6480B000C7C7D3 /* Icon.png in Resources */,
+				3B25D5202A6480B000C7C7D3 /* LaunchScreen.storyboard in Resources */,
+				3B25D5472A6480B000C7C7D3 /* Main.html in Resources */,
+				3B25D54D2A6480B000C7C7D3 /* Script.js in Resources */,
+				3B2098D52A6526BA009D5645 /* manifest.json in Resources */,
+				3B25D5512A6480B000C7C7D3 /* Assets.xcassets in Resources */,
+				3B25D5232A6480B000C7C7D3 /* Main.storyboard in Resources */,
+				3B25D54B2A6480B000C7C7D3 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B25D5272A6480B000C7C7D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B25D54A2A6480B000C7C7D3 /* Icon.png in Resources */,
+				3B2098D62A6526BB009D5645 /* manifest.json in Resources */,
+				3B25D54C2A6480B000C7C7D3 /* Style.css in Resources */,
+				3B25D52F2A6480B000C7C7D3 /* Main.storyboard in Resources */,
+				3B25D54E2A6480B000C7C7D3 /* Script.js in Resources */,
+				3B25D5522A6480B000C7C7D3 /* Assets.xcassets in Resources */,
+				3B25D5482A6480B000C7C7D3 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B25D5342A6480B000C7C7D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B25D5882A6480B100C7C7D3 /* popup.css in Resources */,
+				3B25D5872A6480B100C7C7D3 /* manifest.json in Resources */,
+				3B25D5812A6480B100C7C7D3 /* popup.html in Resources */,
+				3B25D5862A6480B100C7C7D3 /* icons in Resources */,
+				3B25D5852A6480B100C7C7D3 /* editor.js in Resources */,
+				3B25D5842A6480B100C7C7D3 /* README.md in Resources */,
+				3B25D5802A6480B100C7C7D3 /* background.js in Resources */,
+				3B25D57F2A6480B100C7C7D3 /* popup.js in Resources */,
+				3B25D5822A6480B100C7C7D3 /* youtube in Resources */,
+				3B25D5892A6480B100C7C7D3 /* settings.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B25D53E2A6480B000C7C7D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B25D57C2A6480B100C7C7D3 /* popup.css in Resources */,
+				3B25D57B2A6480B100C7C7D3 /* manifest.json in Resources */,
+				3B25D5752A6480B100C7C7D3 /* popup.html in Resources */,
+				3B25D57A2A6480B100C7C7D3 /* icons in Resources */,
+				3B25D5792A6480B100C7C7D3 /* editor.js in Resources */,
+				3B25D5782A6480B100C7C7D3 /* README.md in Resources */,
+				3B25D5742A6480B100C7C7D3 /* background.js in Resources */,
+				3B25D5732A6480B100C7C7D3 /* popup.js in Resources */,
+				3B25D5762A6480B100C7C7D3 /* youtube in Resources */,
+				3B25D57D2A6480B100C7C7D3 /* settings.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B25D5132A6480B000C7C7D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B25D54F2A6480B000C7C7D3 /* ViewController.swift in Sources */,
+				3B25D51B2A6480B000C7C7D3 /* AppDelegate.swift in Sources */,
+				3B25D51D2A6480B000C7C7D3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B25D5252A6480B000C7C7D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B25D5502A6480B000C7C7D3 /* ViewController.swift in Sources */,
+				3B25D52C2A6480B000C7C7D3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B25D5322A6480B000C7C7D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B25D5532A6480B000C7C7D3 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B25D53C2A6480B000C7C7D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B25D5542A6480B000C7C7D3 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B25D5392A6480B000C7C7D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B25D5352A6480B000C7C7D3 /* YouTubeZenMode Extension (iOS) */;
+			targetProxy = 3B25D5382A6480B000C7C7D3 /* PBXContainerItemProxy */;
+		};
+		3B25D5432A6480B000C7C7D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B25D53F2A6480B000C7C7D3 /* YouTubeZenMode Extension (macOS) */;
+			targetProxy = 3B25D5422A6480B000C7C7D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B25D50A2A6480AE00C7C7D3 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B25D50B2A6480AE00C7C7D3 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		3B25D51E2A6480B000C7C7D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B25D51F2A6480B000C7C7D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3B25D5212A6480B000C7C7D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B25D5222A6480B000C7C7D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B25D52D2A6480B000C7C7D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B25D52E2A6480B000C7C7D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B25D5552A6480B000C7C7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B25D5562A6480B000C7C7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3B25D5582A6480B000C7C7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C9UTV7H2GN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "YouTubeZenMode Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.YouTubeZenMode.Extension;
+				PRODUCT_NAME = "YouTubeZenMode Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B25D5592A6480B000C7C7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C9UTV7H2GN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "YouTubeZenMode Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.YouTubeZenMode.Extension;
+				PRODUCT_NAME = "YouTubeZenMode Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B25D55C2A6480B000C7C7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C9UTV7H2GN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = YouTubeZenMode;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.YouTubeZenMode;
+				PRODUCT_NAME = YouTubeZenMode;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B25D55D2A6480B000C7C7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C9UTV7H2GN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = YouTubeZenMode;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.YouTubeZenMode;
+				PRODUCT_NAME = YouTubeZenMode;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B25D55F2A6480B000C7C7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/YouTubeZenMode.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C9UTV7H2GN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "YouTubeZenMode Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.YouTubeZenMode.Extension;
+				PRODUCT_NAME = "YouTubeZenMode Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3B25D5602A6480B000C7C7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/YouTubeZenMode.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C9UTV7H2GN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "YouTubeZenMode Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.YouTubeZenMode.Extension;
+				PRODUCT_NAME = "YouTubeZenMode Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3B25D5632A6480B000C7C7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/YouTubeZenMode.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C9UTV7H2GN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = YouTubeZenMode;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.YouTubeZenMode;
+				PRODUCT_NAME = YouTubeZenMode;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3B25D5642A6480B000C7C7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/YouTubeZenMode.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C9UTV7H2GN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = YouTubeZenMode;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.YouTubeZenMode;
+				PRODUCT_NAME = YouTubeZenMode;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B25D5072A6480AE00C7C7D3 /* Build configuration list for PBXProject "YouTubeZenMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B25D5552A6480B000C7C7D3 /* Debug */,
+				3B25D5562A6480B000C7C7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B25D5572A6480B000C7C7D3 /* Build configuration list for PBXNativeTarget "YouTubeZenMode Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B25D5582A6480B000C7C7D3 /* Debug */,
+				3B25D5592A6480B000C7C7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B25D55B2A6480B000C7C7D3 /* Build configuration list for PBXNativeTarget "YouTubeZenMode (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B25D55C2A6480B000C7C7D3 /* Debug */,
+				3B25D55D2A6480B000C7C7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B25D55E2A6480B000C7C7D3 /* Build configuration list for PBXNativeTarget "YouTubeZenMode Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B25D55F2A6480B000C7C7D3 /* Debug */,
+				3B25D5602A6480B000C7C7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B25D5622A6480B000C7C7D3 /* Build configuration list for PBXNativeTarget "YouTubeZenMode (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B25D5632A6480B000C7C7D3 /* Debug */,
+				3B25D5642A6480B000C7C7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B25D5042A6480AE00C7C7D3 /* Project object */;
+}

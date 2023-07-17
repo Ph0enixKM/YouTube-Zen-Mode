@@ -2,6 +2,8 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+    width: 300px;
+    height: 300px;
     transition: background-position 1s;
     background-image: linear-gradient(#fff 0%, #aaa 25%, rgba(100,1,128,1) 75%, rgba(0,8,46,1) 100%);
     background-size: 100% 400%;
@@ -33,9 +35,8 @@ body.chaos {
 .logo {
     width: 100px;
     height: 100px;
-    margin: 0 auto;
+    margin: 20px auto;
     display: block;
-    margin-top: 10px;
     animation: rotateZen 1000ms;
 }
 
@@ -63,7 +64,7 @@ section.settings {
     background: linear-gradient(#fff, #aaa);
     border-radius: 20px;
     box-shadow: #aaa 0 0 10px;
-    top: 100%;
+    top: -100%;
     width: 100%;
     height: 100%;
     transition: top 300ms;
@@ -111,8 +112,8 @@ button:active {
     background-color: #222;
     border-radius: 10px;
     color: #aaa;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     outline: none;
     margin: 10px;
     overflow: scroll;

@@ -7,16 +7,10 @@ function update() {
         if (res.chaos) {
             button.innerHTML = chaosText[0]
             document.body.className = 'chaos'
-            chrome.action.setIcon({
-                path : "icons/chaos-icon128.png"
-            })
         }
         else {
             button.innerHTML = chaosText[1]
             document.body.className = ''
-            chrome.action.setIcon({
-                path : "icons/icon128.png"
-            })
         }
     })
 }
@@ -44,7 +38,7 @@ button.addEventListener('click', e => {
                     }
                     for (let i in tabs) {
                         let tab = tabs[i]
-                        if (tab.url.includes('youtube') || tab.url.includes('youtu.be') || tab.url.includes('facebook')) {
+                        if (tab.url.includes('youtube') || tab.url.includes('youtu.be')) {
                             chrome.tabs.update(tab.id, {url: tab.url})
                         }
                     }

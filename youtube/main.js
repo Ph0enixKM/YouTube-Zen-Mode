@@ -5,6 +5,8 @@ class Zen {
 
     createContainer() {
         if (document.querySelector('.zen-mode-container')) return
+            
+        const ytGrid = document.querySelector('ytd-rich-grid-renderer')
         this.container = document.createElement('div')
         this.container.innerHTML = `
         <h1 class="zen-mode-container">
@@ -15,7 +17,7 @@ class Zen {
             <span class="zen-mode-title">Keep your mind peaceful</span>
         </h1>
         `
-        document.documentElement.appendChild(this.container)
+        ytGrid.appendChild(this.container)
     }
 
     setZenMode() {
@@ -36,8 +38,11 @@ class Zen {
             this.zenStyleHomepage = document.createElement('style')
             this.zenStyleHomepage.className = 'zen-mode-style-homepage-zen'
             this.zenStyleHomepage.innerHTML = `
-                #primary {
-                    display: none;
+                ytd-rich-grid-renderer #contents {
+                    display: none !important;
+                }
+                ytd-rich-grid-renderer #header {
+                    display: none !important;
                 }
             `
             document.head.appendChild(this.zenStyleHomepage)
@@ -51,7 +56,7 @@ class Zen {
 
     setCustomStyle() {
         if (document.querySelector('.zen-mode-style-zen')) return
-        chrome.storage.sync.get(['css'], (res) => {
+        chrome.storage.local.get(['css'], (res) => {
             this.zenStyle = document.createElement('style')
             this.zenStyle.className = 'zen-mode-style-zen'
             this.zenStyle.innerHTML += `
