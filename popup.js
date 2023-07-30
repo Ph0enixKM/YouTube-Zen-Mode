@@ -1,16 +1,21 @@
 const button = document.querySelector('button')
 const chaosText = ['Stop the Chaos', 'Unleash Chaos']
 
+// iPhone's popup looks different than the iPad one
+if (navigator.platform.match(/iPhone/i)) {
+    document.body.classList.add('iphone')
+}
+
 update()
 function update() {
     chrome.storage.local.get(['chaos'], (res) => {
         if (res.chaos) {
             button.innerHTML = chaosText[0]
-            document.body.className = 'chaos'
+            document.body.classList.add('chaos')
         }
         else {
             button.innerHTML = chaosText[1]
-            document.body.className = ''
+            document.body.classList.remove('chaos')
         }
     })
 }

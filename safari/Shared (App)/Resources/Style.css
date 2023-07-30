@@ -1,0 +1,102 @@
+* {
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    cursor: default;
+}
+
+:root {
+    color-scheme: light dark;
+
+    --spacing: 20px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: var(--spacing);
+    margin: 0 calc(var(--spacing) * 2);
+    height: 100%;
+
+    font: -apple-system-short-body;
+    text-align: center;
+}
+
+body:not(.platform-mac, .platform-ios) :is(.platform-mac, .platform-ios) {
+    display: none;
+}
+
+body.platform-ios .platform-mac {
+    display: none;
+}
+
+body.platform-mac .platform-ios {
+    display: none;
+}
+
+body.platform-ios .platform-mac {
+    display: none;
+}
+
+body:not(.state-on, .state-off) :is(.state-on, .state-off) {
+    display: none;
+}
+
+body.state-on :is(.state-off, .state-unknown) {
+    display: none;
+}
+
+body.state-off :is(.state-on, .state-unknown) {
+    display: none;
+}
+
+button {
+    font-size: 1em;
+}
+
+@keyframes zenmode-spin {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes zenmode-tilt {
+    0% {
+        transform: perspective(10em) rotateX(10deg);
+    }
+    50% {
+        transform: perspective(10em) rotateX(-10deg);
+    }
+    100% {
+        transform: perspective(10em) rotateX(10deg);
+    }
+}
+
+.icon {
+    -webkit-animation: zenmode-spin 40s linear infinite;
+    display: inline-block;
+}
+
+.icon-container {
+    padding: 30px;
+    -webkit-animation: zenmode-tilt 10s ease-in-out infinite;
+    filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.5));
+    
+    background-image: radial-gradient(circle at 61% 32%, rgba(255,0,0,0.60) 0%, rgba(136,136,136,0.00) 31%), radial-gradient(circle at 41% 69%, rgba(255,0,65,0.40) 0%, rgba(136,136,136,0.00) 27%);
+}
+
+p {
+    background: rgba(128, 128, 128, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.4);
+}

@@ -11,10 +11,11 @@
     color: #888;
     position: absolute; 
     top: 50%; 
-    left: 50%; 
+    left: 50%;
     transform: translate(-50%, -50%);
     font-size: 5vw;
     text-align: center;
+    z-index: 999;
 }
 
 .zen-mode-logo {
@@ -24,12 +25,34 @@
 
 .zen-mode-title {
     vertical-align: middle;
+    font-weight: 600;
 }
 
 .zen-mode-svg {
     vertical-align: middle;
     width: 10vw;
     height: 10vw;
+}
+
+/* On smaller devices youtube enforces ellipsis */
+h1 {
+    text-overflow: clip !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .zen-mode-svg {
+        width: 30vw;
+        height: 30vw;
+    }
+    
+    .zen-mode-title {
+        display: block;
+        width: 100vw;
+        height: 20vh;
+        font-size: 30px;
+        margin-top: 10vw;
+        text-overflow: clip !important;
+    }
 }
 
 .zen-mode-svg path {
