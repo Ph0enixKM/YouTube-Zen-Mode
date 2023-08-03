@@ -76,6 +76,11 @@ section.settings {
     transition: top 300ms;
 }
 
+.iphone section.settings {
+    width: 100%;
+    left: 0;
+}
+
 .chaos section.settings {
     background: linear-gradient(rgba(100,1,128,1), rgba(0,8,46,1));
 }

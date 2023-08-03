@@ -1,8 +1,8 @@
 class Zen {
     removeShortsFromNavbar() {
-        const mobileNavBar = document.querySelectorAll('ytm-pivot-bar-item-renderer')
-        if (mobileNavBar?.length > 2) {
-            mobileNavBar[1].remove()
+        const iPhoneShorts = document.querySelector('ytm-pivot-bar-item-renderer .pivot-shorts')
+        if (iPhoneShorts) {
+            iPhoneShorts.parentElement.remove()
         }
         const iPadShorts = document.querySelector('ytd-mini-guide-entry-renderer a[title="Shorts"]')
         if (iPadShorts) {
