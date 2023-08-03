@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3B25D5282A6480B000C7C7D3"
+               BlueprintIdentifier = "3B25D5162A6480B000C7C7D3"
                BuildableName = "YouTubeZenMode.app"
-               BlueprintName = "YouTubeZenMode (macOS)"
-               ReferencedContainer = "container:YouTubeZenMode.xcodeproj">
+               BlueprintName = "Zen Mode for YouTube (iOS)"
+               ReferencedContainer = "container:Zen Mode for YouTube.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -43,10 +43,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3B25D5282A6480B000C7C7D3"
+            BlueprintIdentifier = "3B25D5162A6480B000C7C7D3"
             BuildableName = "YouTubeZenMode.app"
-            BlueprintName = "YouTubeZenMode (macOS)"
-            ReferencedContainer = "container:YouTubeZenMode.xcodeproj">
+            BlueprintName = "Zen Mode for YouTube (iOS)"
+            ReferencedContainer = "container:Zen Mode for YouTube.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -60,10 +60,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3B25D5282A6480B000C7C7D3"
+            BlueprintIdentifier = "3B25D5162A6480B000C7C7D3"
             BuildableName = "YouTubeZenMode.app"
-            BlueprintName = "YouTubeZenMode (macOS)"
-            ReferencedContainer = "container:YouTubeZenMode.xcodeproj">
+            BlueprintName = "Zen Mode for YouTube (iOS)"
+            ReferencedContainer = "container:Zen Mode for YouTube.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

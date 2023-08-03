@@ -15,8 +15,8 @@
 		3B25D5232A6480B000C7C7D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D5212A6480B000C7C7D3 /* Main.storyboard */; };
 		3B25D52C2A6480B000C7C7D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B25D52B2A6480B000C7C7D3 /* AppDelegate.swift */; };
 		3B25D52F2A6480B000C7C7D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D52D2A6480B000C7C7D3 /* Main.storyboard */; };
-		3B25D5372A6480B000C7C7D3 /* YouTubeZenMode Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3B25D5362A6480B000C7C7D3 /* YouTubeZenMode Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		3B25D5412A6480B000C7C7D3 /* YouTubeZenMode Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3B25D5402A6480B000C7C7D3 /* YouTubeZenMode Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3B25D5372A6480B000C7C7D3 /* Zen Mode for YouTube Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3B25D5362A6480B000C7C7D3 /* Zen Mode for YouTube Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3B25D5412A6480B000C7C7D3 /* Zen Mode for YouTube Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3B25D5402A6480B000C7C7D3 /* Zen Mode for YouTube Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3B25D5472A6480B000C7C7D3 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D50A2A6480AE00C7C7D3 /* Main.html */; };
 		3B25D5482A6480B000C7C7D3 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D50A2A6480AE00C7C7D3 /* Main.html */; };
 		3B25D5492A6480B000C7C7D3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B25D50C2A6480AE00C7C7D3 /* Icon.png */; };
@@ -77,7 +77,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				3B25D5372A6480B000C7C7D3 /* YouTubeZenMode Extension.appex in Embed Foundation Extensions */,
+				3B25D5372A6480B000C7C7D3 /* Zen Mode for YouTube Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -88,7 +88,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				3B25D5412A6480B000C7C7D3 /* YouTubeZenMode Extension.appex in Embed Foundation Extensions */,
+				3B25D5412A6480B000C7C7D3 /* Zen Mode for YouTube Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,20 +103,20 @@
 		3B25D50F2A6480AE00C7C7D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3B25D5102A6480B000C7C7D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B25D5122A6480B000C7C7D3 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
-		3B25D5172A6480B000C7C7D3 /* YouTubeZenMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTubeZenMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B25D5172A6480B000C7C7D3 /* Zen Mode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zen Mode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B25D51A2A6480B000C7C7D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B25D51C2A6480B000C7C7D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3B25D51F2A6480B000C7C7D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B25D5222A6480B000C7C7D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B25D5242A6480B000C7C7D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B25D5292A6480B000C7C7D3 /* YouTubeZenMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTubeZenMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B25D5292A6480B000C7C7D3 /* Zen Mode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zen Mode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B25D52B2A6480B000C7C7D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B25D52E2A6480B000C7C7D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B25D5302A6480B000C7C7D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B25D5312A6480B000C7C7D3 /* YouTubeZenMode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YouTubeZenMode.entitlements; sourceTree = "<group>"; };
-		3B25D5362A6480B000C7C7D3 /* YouTubeZenMode Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "YouTubeZenMode Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B25D5362A6480B000C7C7D3 /* Zen Mode for YouTube Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Zen Mode for YouTube Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B25D53B2A6480B000C7C7D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B25D5402A6480B000C7C7D3 /* YouTubeZenMode Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "YouTubeZenMode Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B25D5402A6480B000C7C7D3 /* Zen Mode for YouTube Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Zen Mode for YouTube Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B25D5452A6480B000C7C7D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B25D5462A6480B000C7C7D3 /* YouTubeZenMode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YouTubeZenMode.entitlements; sourceTree = "<group>"; };
 		3B25D5672A6480B100C7C7D3 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = ../../popup.js; sourceTree = "<group>"; };
@@ -209,10 +209,10 @@
 		3B25D5182A6480B000C7C7D3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3B25D5172A6480B000C7C7D3 /* YouTubeZenMode.app */,
-				3B25D5292A6480B000C7C7D3 /* YouTubeZenMode.app */,
-				3B25D5362A6480B000C7C7D3 /* YouTubeZenMode Extension.appex */,
-				3B25D5402A6480B000C7C7D3 /* YouTubeZenMode Extension.appex */,
+				3B25D5172A6480B000C7C7D3 /* Zen Mode.app */,
+				3B25D5292A6480B000C7C7D3 /* Zen Mode.app */,
+				3B25D5362A6480B000C7C7D3 /* Zen Mode for YouTube Extension.appex */,
+				3B25D5402A6480B000C7C7D3 /* Zen Mode for YouTube Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -278,9 +278,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3B25D5162A6480B000C7C7D3 /* YouTubeZenMode (iOS) */ = {
+		3B25D5162A6480B000C7C7D3 /* Zen Mode for YouTube (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B25D55B2A6480B000C7C7D3 /* Build configuration list for PBXNativeTarget "YouTubeZenMode (iOS)" */;
+			buildConfigurationList = 3B25D55B2A6480B000C7C7D3 /* Build configuration list for PBXNativeTarget "Zen Mode for YouTube (iOS)" */;
 			buildPhases = (
 				3B25D5132A6480B000C7C7D3 /* Sources */,
 				3B25D5142A6480B000C7C7D3 /* Frameworks */,
@@ -292,14 +292,14 @@
 			dependencies = (
 				3B25D5392A6480B000C7C7D3 /* PBXTargetDependency */,
 			);
-			name = "YouTubeZenMode (iOS)";
+			name = "Zen Mode for YouTube (iOS)";
 			productName = "YouTubeZenMode (iOS)";
-			productReference = 3B25D5172A6480B000C7C7D3 /* YouTubeZenMode.app */;
+			productReference = 3B25D5172A6480B000C7C7D3 /* Zen Mode.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3B25D5282A6480B000C7C7D3 /* YouTubeZenMode (macOS) */ = {
+		3B25D5282A6480B000C7C7D3 /* Zen Mode for YouTube (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B25D5622A6480B000C7C7D3 /* Build configuration list for PBXNativeTarget "YouTubeZenMode (macOS)" */;
+			buildConfigurationList = 3B25D5622A6480B000C7C7D3 /* Build configuration list for PBXNativeTarget "Zen Mode for YouTube (macOS)" */;
 			buildPhases = (
 				3B25D5252A6480B000C7C7D3 /* Sources */,
 				3B25D5262A6480B000C7C7D3 /* Frameworks */,
@@ -311,14 +311,14 @@
 			dependencies = (
 				3B25D5432A6480B000C7C7D3 /* PBXTargetDependency */,
 			);
-			name = "YouTubeZenMode (macOS)";
+			name = "Zen Mode for YouTube (macOS)";
 			productName = "YouTubeZenMode (macOS)";
-			productReference = 3B25D5292A6480B000C7C7D3 /* YouTubeZenMode.app */;
+			productReference = 3B25D5292A6480B000C7C7D3 /* Zen Mode.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3B25D5352A6480B000C7C7D3 /* YouTubeZenMode Extension (iOS) */ = {
+		3B25D5352A6480B000C7C7D3 /* Zen Mode for YouTube Extension (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B25D5572A6480B000C7C7D3 /* Build configuration list for PBXNativeTarget "YouTubeZenMode Extension (iOS)" */;
+			buildConfigurationList = 3B25D5572A6480B000C7C7D3 /* Build configuration list for PBXNativeTarget "Zen Mode for YouTube Extension (iOS)" */;
 			buildPhases = (
 				3B25D5322A6480B000C7C7D3 /* Sources */,
 				3B25D5332A6480B000C7C7D3 /* Frameworks */,
@@ -328,14 +328,14 @@
 			);
 			dependencies = (
 			);
-			name = "YouTubeZenMode Extension (iOS)";
+			name = "Zen Mode for YouTube Extension (iOS)";
 			productName = "YouTubeZenMode Extension (iOS)";
-			productReference = 3B25D5362A6480B000C7C7D3 /* YouTubeZenMode Extension.appex */;
+			productReference = 3B25D5362A6480B000C7C7D3 /* Zen Mode for YouTube Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		3B25D53F2A6480B000C7C7D3 /* YouTubeZenMode Extension (macOS) */ = {
+		3B25D53F2A6480B000C7C7D3 /* Zen Mode for YouTube Extension (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B25D55E2A6480B000C7C7D3 /* Build configuration list for PBXNativeTarget "YouTubeZenMode Extension (macOS)" */;
+			buildConfigurationList = 3B25D55E2A6480B000C7C7D3 /* Build configuration list for PBXNativeTarget "Zen Mode for YouTube Extension (macOS)" */;
 			buildPhases = (
 				3B25D53C2A6480B000C7C7D3 /* Sources */,
 				3B25D53D2A6480B000C7C7D3 /* Frameworks */,
@@ -345,9 +345,9 @@
 			);
 			dependencies = (
 			);
-			name = "YouTubeZenMode Extension (macOS)";
+			name = "Zen Mode for YouTube Extension (macOS)";
 			productName = "YouTubeZenMode Extension (macOS)";
-			productReference = 3B25D5402A6480B000C7C7D3 /* YouTubeZenMode Extension.appex */;
+			productReference = 3B25D5402A6480B000C7C7D3 /* Zen Mode for YouTube Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -374,7 +374,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3B25D5072A6480AE00C7C7D3 /* Build configuration list for PBXProject "YouTubeZenMode" */;
+			buildConfigurationList = 3B25D5072A6480AE00C7C7D3 /* Build configuration list for PBXProject "Zen Mode for YouTube" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -387,10 +387,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3B25D5162A6480B000C7C7D3 /* YouTubeZenMode (iOS) */,
-				3B25D5282A6480B000C7C7D3 /* YouTubeZenMode (macOS) */,
-				3B25D5352A6480B000C7C7D3 /* YouTubeZenMode Extension (iOS) */,
-				3B25D53F2A6480B000C7C7D3 /* YouTubeZenMode Extension (macOS) */,
+				3B25D5162A6480B000C7C7D3 /* Zen Mode for YouTube (iOS) */,
+				3B25D5282A6480B000C7C7D3 /* Zen Mode for YouTube (macOS) */,
+				3B25D5352A6480B000C7C7D3 /* Zen Mode for YouTube Extension (iOS) */,
+				3B25D53F2A6480B000C7C7D3 /* Zen Mode for YouTube Extension (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -502,12 +502,12 @@
 /* Begin PBXTargetDependency section */
 		3B25D5392A6480B000C7C7D3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3B25D5352A6480B000C7C7D3 /* YouTubeZenMode Extension (iOS) */;
+			target = 3B25D5352A6480B000C7C7D3 /* Zen Mode for YouTube Extension (iOS) */;
 			targetProxy = 3B25D5382A6480B000C7C7D3 /* PBXContainerItemProxy */;
 		};
 		3B25D5432A6480B000C7C7D3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3B25D53F2A6480B000C7C7D3 /* YouTubeZenMode Extension (macOS) */;
+			target = 3B25D53F2A6480B000C7C7D3 /* Zen Mode for YouTube Extension (macOS) */;
 			targetProxy = 3B25D5422A6480B000C7C7D3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -604,6 +604,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Zen Mode";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -658,6 +659,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "Zen Mode";
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
@@ -684,7 +686,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = software.marble.YouTubeZenMode.Extension;
-				PRODUCT_NAME = "YouTubeZenMode Extension";
+				PRODUCT_NAME = "Zen Mode for YouTube Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -715,7 +717,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = software.marble.YouTubeZenMode.Extension;
-				PRODUCT_NAME = "YouTubeZenMode Extension";
+				PRODUCT_NAME = "Zen Mode for YouTube Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -736,7 +738,7 @@
 				DEVELOPMENT_TEAM = C9UTV7H2GN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = YouTubeZenMode;
+				INFOPLIST_KEY_CFBundleDisplayName = "Zen Mode";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -756,7 +758,7 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = software.marble.YouTubeZenMode;
-				PRODUCT_NAME = YouTubeZenMode;
+				PRODUCT_NAME = "Zen Mode";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -775,7 +777,7 @@
 				DEVELOPMENT_TEAM = C9UTV7H2GN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = YouTubeZenMode;
+				INFOPLIST_KEY_CFBundleDisplayName = "Zen Mode";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -795,7 +797,7 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = software.marble.YouTubeZenMode;
-				PRODUCT_NAME = YouTubeZenMode;
+				PRODUCT_NAME = "Zen Mode";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -828,7 +830,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = software.marble.YouTubeZenMode.Extension;
-				PRODUCT_NAME = "YouTubeZenMode Extension";
+				PRODUCT_NAME = "Zen Mode for YouTube Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -860,7 +862,7 @@
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = software.marble.YouTubeZenMode.Extension;
-				PRODUCT_NAME = "YouTubeZenMode Extension";
+				PRODUCT_NAME = "Zen Mode for YouTube Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -882,7 +884,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = YouTubeZenMode;
+				INFOPLIST_KEY_CFBundleDisplayName = "Zen Mode";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -899,7 +901,7 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = software.marble.YouTubeZenMode;
-				PRODUCT_NAME = YouTubeZenMode;
+				PRODUCT_NAME = "Zen Mode";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -920,7 +922,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = YouTubeZenMode;
+				INFOPLIST_KEY_CFBundleDisplayName = "Zen Mode";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -937,7 +939,7 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = software.marble.YouTubeZenMode;
-				PRODUCT_NAME = YouTubeZenMode;
+				PRODUCT_NAME = "Zen Mode";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -947,7 +949,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3B25D5072A6480AE00C7C7D3 /* Build configuration list for PBXProject "YouTubeZenMode" */ = {
+		3B25D5072A6480AE00C7C7D3 /* Build configuration list for PBXProject "Zen Mode for YouTube" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B25D5552A6480B000C7C7D3 /* Debug */,
@@ -956,7 +958,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B25D5572A6480B000C7C7D3 /* Build configuration list for PBXNativeTarget "YouTubeZenMode Extension (iOS)" */ = {
+		3B25D5572A6480B000C7C7D3 /* Build configuration list for PBXNativeTarget "Zen Mode for YouTube Extension (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B25D5582A6480B000C7C7D3 /* Debug */,
@@ -965,7 +967,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B25D55B2A6480B000C7C7D3 /* Build configuration list for PBXNativeTarget "YouTubeZenMode (iOS)" */ = {
+		3B25D55B2A6480B000C7C7D3 /* Build configuration list for PBXNativeTarget "Zen Mode for YouTube (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B25D55C2A6480B000C7C7D3 /* Debug */,
@@ -974,7 +976,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B25D55E2A6480B000C7C7D3 /* Build configuration list for PBXNativeTarget "YouTubeZenMode Extension (macOS)" */ = {
+		3B25D55E2A6480B000C7C7D3 /* Build configuration list for PBXNativeTarget "Zen Mode for YouTube Extension (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B25D55F2A6480B000C7C7D3 /* Debug */,
@@ -983,7 +985,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B25D5622A6480B000C7C7D3 /* Build configuration list for PBXNativeTarget "YouTubeZenMode (macOS)" */ = {
+		3B25D5622A6480B000C7C7D3 /* Build configuration list for PBXNativeTarget "Zen Mode for YouTube (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B25D5632A6480B000C7C7D3 /* Debug */,

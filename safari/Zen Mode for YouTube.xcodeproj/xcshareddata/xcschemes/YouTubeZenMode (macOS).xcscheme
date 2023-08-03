@@ -14,39 +14,25 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3B25D5162A6480B000C7C7D3"
-               BuildableName = "YouTubeZenMode.app"
-               BlueprintName = "YouTubeZenMode (iOS)"
-               ReferencedContainer = "container:YouTubeZenMode.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "3B25D5282A6480B000C7C7D3"
                BuildableName = "YouTubeZenMode.app"
-               BlueprintName = "YouTubeZenMode (macOS)"
-               ReferencedContainer = "container:YouTubeZenMode.xcodeproj">
+               BlueprintName = "Zen Mode for YouTube (macOS)"
+               ReferencedContainer = "container:Zen Mode for YouTube.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       shouldAutocreateTestPlan = "YES">
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Release"
-      selectedDebuggerIdentifier = ""
-      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -57,10 +43,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3B25D5162A6480B000C7C7D3"
+            BlueprintIdentifier = "3B25D5282A6480B000C7C7D3"
             BuildableName = "YouTubeZenMode.app"
-            BlueprintName = "YouTubeZenMode (iOS)"
-            ReferencedContainer = "container:YouTubeZenMode.xcodeproj">
+            BlueprintName = "Zen Mode for YouTube (macOS)"
+            ReferencedContainer = "container:Zen Mode for YouTube.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -74,10 +60,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3B25D5162A6480B000C7C7D3"
+            BlueprintIdentifier = "3B25D5282A6480B000C7C7D3"
             BuildableName = "YouTubeZenMode.app"
-            BlueprintName = "YouTubeZenMode (iOS)"
-            ReferencedContainer = "container:YouTubeZenMode.xcodeproj">
+            BlueprintName = "Zen Mode for YouTube (macOS)"
+            ReferencedContainer = "container:Zen Mode for YouTube.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
